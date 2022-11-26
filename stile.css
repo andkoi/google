@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    height: 100px;
+    background-color: rgb(99, 126, 176);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav a {
+    color:rgb(58, 26, 80);
+    margin: 0 20px 0 20px;
+    font-size: x-large;
+    font-family: 'Ruslan Display', cursive;
+}
+
+nav img {
+    height: 100px;
+    width: 125px;
+    border-radius: 50%;
+}
+
+.row a img {
+    width: 250px;
+    height: 250px;
+    border-radius: 25%;
+    position: relative;
+    left: 200px;
+    margin: 25px;
+}
+
+.download-games h3 {
+    font-size: xx-large;
+    padding: 20px 0 20px 20px;
+    font-family: 'Ruslan Display', cursive;
+    position: relative;
+    left: 600px;
+
+}
+
+.download-games {
+    background-color: antiquewhite;
+}
+
+.feedback {
+    background-color: antiquewhite;
+}
+
+.feedback h1 {
+    font-size: xx-large;
+    padding: 20px 0 20px 20px;
+    font-family: 'Ruslan Display', cursive;
+    position: relative;
+    left: 600px;
+}
+
+.messangers-dv1 a img {
+    width: 250px;
+    height: 250px;
+}
+
+.develop img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
