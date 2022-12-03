@@ -1,3 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@700&family=Source+Sans+Pro:wght@300;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@700&family=Poiret+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kelly+Slab&family=Yeseva+One&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -15,31 +20,36 @@ nav a {
     color:rgb(58, 26, 80);
     margin: 0 20px 0 20px;
     font-size: x-large;
-    font-family: 'Ruslan Display', cursive;
+    font-family: 'Kelly Slab', cursive;
 }
 
 nav img {
-    height: 100px;
-    width: 125px;
+    height: 80px;
+    width: 85px;
     border-radius: 50%;
 }
 
 .row a img {
-    width: 250px;
-    height: 250px;
-    border-radius: 25%;
+    width: 225px;
+    height: 225px;
+    border-radius: 5%;
     position: relative;
-    left: 200px;
     margin: 25px;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 35px;
+    background-color: #c9b59b;
 }
 
 .download-games h3 {
     font-size: xx-large;
     padding: 20px 0 20px 20px;
-    font-family: 'Ruslan Display', cursive;
+    font-family: 'Kelly Slab', cursive;
     position: relative;
-    left: 600px;
-
+    text-align: center;
 }
 
 .download-games {
@@ -47,24 +57,115 @@ nav img {
 }
 
 .feedback {
-    background-color: antiquewhite;
+    background-color: rgb(99, 126, 176);
+    padding-bottom: 25px;
 }
 
 .feedback h1 {
     font-size: xx-large;
     padding: 20px 0 20px 20px;
-    font-family: 'Ruslan Display', cursive;
+    font-family: 'Kelly Slab', cursive;
     position: relative;
-    left: 600px;
+    text-align: center;
+    padding-bottom: 40px;
 }
 
 .messangers-dv1 a img {
-    width: 250px;
-    height: 250px;
+    width: 50px;
+    height: 50px;
 }
 
 .develop img {
+    width: 200px;
+    height: 250px;
+    border-radius: 5%;
+}
+
+.messangers-dv1 {
+    display: flex;
+    justify-content: center;
+}
+
+.messangers-admin a img {
+    width: 50px;
+    height: 50px;
+}
+
+.messangers-admin a {
+    display: flex;
+    justify-content: center;
+}
+
+.admin img {
+    width: 200px;
+    height: 250px;
+    border-radius: 5%;
+}
+
+.helper-admin img {
+    width: 200px;
+    height: 250px;
+    border-radius: 5%;
+}
+
+.messangers-helper-admin a img {
+    width: 50px;
+    height: 50px;
+}
+
+.messangers-helper-admin {
+    display: flex;
+    justify-content: center;
+}
+
+.develops-and-admins {
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 250px;
+}
+
+.develop h3 {
+    font-family: 'Kelly Slab', cursive;
+}
+
+.develop p {
+    padding-bottom: 10px;
+    font-family: 'Kelly Slab', cursive;
+}
+
+.admin h3 {
+    font-family: 'Kelly Slab', cursive;
+}
+
+.admin p {
+    padding-bottom:  10px;
+    font-family: 'Kelly Slab', cursive;
+}
+
+.helper-admin h3 {
+    font-family: 'Kelly Slab', cursive;
+}
+
+.helper-admin p {
+    padding-bottom: 10px;
+    font-family: 'Kelly Slab', cursive;
+}
+
+.develop {
+    background-color: rgb(130, 100, 150);
+    border-radius: 5%;
+    padding-bottom: 10px;
+}
+
+.admin {
+    background-color: rgb(130, 100, 150);
+    border-radius: 5%;
+    padding-bottom: 10px;
+}
+
+.helper-admin {
+    background-color: rgb(130, 100, 150);
+    border-radius: 5%;
+    padding-bottom: 10px;
 }
